@@ -10,6 +10,6 @@
 // const learning=language.join("-")
 // console.log(learning)
 
-const car=["toyota","honda","picanto","civic"]
+const car=["toyota","honda","picanto",2]
 const brand=car.join(" and ")
 console.log(brand)
