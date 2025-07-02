@@ -1,3 +1,3 @@
 const city=["lahore", "karachi", "peshwar","lahore"]
-const village=city.lastIndexOf("lahoret")
+const village=city.lastIndexOf("lahore")
 console.log(village)

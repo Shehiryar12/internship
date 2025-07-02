@@ -24,3 +24,9 @@
 //     return item  + 1
 // })
 // console.log(arr)
+
+const math=[10,20,30,40,50]
+const add=math.map((num)=>{
+    return num+2
+})
+console.log(add);
