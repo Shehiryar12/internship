@@ -20,10 +20,18 @@
  
 
 
-const number=[45,61,74,32,69,42,57]
-function total(num){
-    return num>63
-}
+// const number=[45,61,74,32,69,42,57]
+// function total(num){
+//     return num<63
+// }
 
-const result=number.filter(total)
-console.log(result)
+// const result=number.filter(total)
+// console.log(result)
+
+const arr = [5, 10, 15, 20];
+
+const result = arr.filter(num => {
+  return num > 10; // Sirf true ya false return ho raha hai
+});
+
+console.log(result); // [15, 20]

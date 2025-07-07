@@ -1,12 +1,12 @@
 //map function har array ka element par funcion apply karta hai and new array return karta hai
 
 // const numbers=[33,67,24,56,21,43,78]
-// const digit=numbers.map(num=>num*10)
+// const digit=numbers.map()
 // console.log(digit)
 
 // const numbers=[42,78,91,89,52,38]
 // function num(cal){
-//     return  cal*10
+//     return  cal<10
 // }
 
 // const result=numbers.map(num)
@@ -22,13 +22,11 @@
 //   console.log(total)
 
 
-// const nums = [2, 4, 6, 8];
-// function number(calculation){
-//       return calculation*calculation
-// }
-// const total=nums.map(number)
-// console.log(total);
+const nums = [2, 4, 6, 8];
+function number(calculation){
+      return calculation*calculation
+}
+const total=nums.map(number)
+console.log(total);
 
-// const names = ["ali", "ahmed", "sara"];
-// const nametwo=names.map(item=>item.toUpperCase())
-// console.log(nametwo)
+
